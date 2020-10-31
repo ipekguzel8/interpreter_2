@@ -1,0 +1,141 @@
+1 BASLA
+2 YAZ 3+5
+3 BÝTÝR
+--------------------
+1 BASLA
+2 GÝR sayi
+3 YAZ sayi*2
+4 BÝTÝR
+---------------------
+1 BASLA
+2 YAZ "Bu program üçgenin alanýný hesaplar"
+3 YAZ "Üçgenin Yüksekliðini Giriniz"
+4 GÝR yukseklik
+5 YAZ "Üçgenin tabanýný Giriniz"
+6 GÝR taban
+7 alan=yukseklik*taban/2
+8 YAZ alan
+9 BÝTÝR
+----------------------------------
+1 BASLA
+2 GÝR s
+3 EGER s>100 Ýse YAZ "Büyük"
+4 BÝTÝR
+------------------
+1 BASLA
+2 GÝR s1
+3 toplam=s1
+4 GÝR s2
+5 toplam=toplam+s2
+6 GÝR s3
+7 toplam=toplam+s3
+8 GÝR s4
+9 toplam=toplam+s4
+10 YAZ toplam
+11 BÝTÝR
+----------------------------------------
+1 BASLA
+2 GÝR s
+3 enb=s
+4 indis=1
+5 GÝR s
+6 EGER s>enb Ýse enb=s
+7 indis=indis+1
+8 EGER indis<5 Ýse GÝT 5
+9 YAZ enb
+10 BÝTÝR
+---------------------------------------
+1 BASLA
+2 i=1
+3 YAZ i
+4 i=i+1
+5 EGER i<=5 Ýse GÝT 3
+6 BÝTÝR
+-------------------------------------
+1 BASLA
+2 GÝR n
+3 i=1
+4 YAZ i
+5 i=i+1
+6 EGER i<=n Ýse GÝT 4
+7 BÝTÝR
+---------------------------------------
+1 BASLA
+2 GÝR n
+3 i=1
+4 YAZ i
+5 i=i+2
+6 EGER i<=n Ýse GÝT 4
+7 BÝTÝR
+--------------------------------------
+1 BASLA
+2 sayac=0
+3 toplam=0
+4 GÝR s
+5 sayac=sayac+1
+6 toplam=toplam+sayi
+7 EGER sayac<100 Ýse GÝT 4
+8 sonuc=toplam/sayac
+9 YAZ sonuc
+10 BÝTÝR
+------------------------------------
+1 BASLA
+2 GÝR sayi
+3 f=1
+4 i=1
+5 f=f*i
+6 i=i+1
+7 EGER i<=sayi Ýse GÝT 5
+8 YAZ f
+9 BÝTÝR
+--------------------------------------
+1 BASLA
+2 GÝR sayi
+3 enb=sayi
+4 GÝR sayi
+5 EGER sayi>enb ise enb=sayi
+6 EGER sayi<0 ise GÝT 4
+7 YAZ enb
+8 BÝTÝR
+-----------------------------------------
+1 BASLA
+2 GÝR x
+3 GÝR y
+4 son=1
+5 i=1
+6 son=son*x
+7 i=i+1
+8 EGER i<=y Ýse GÝT 5
+9 YAZ son
+10 BÝTÝR
+-----------------------------------------
+1 BASLA
+2 yeni Sayi[100]
+3 i=0
+4 GÝR Sayi[i]
+5 i=i+1
+6 EGER i<100 Ýse GÝT 4
+7 i=0
+8 YAZ Sayi[i]
+9 i=i+1
+10 EGER i<100 Ýse GÝT 8
+11 BÝTÝR
+---------------------------------------
+1 BASLA
+2 i=0
+3 yeni dizi[3][4]
+4 j=0
+5 GÝR dizi[i][j]
+6 j=j+1
+7 EGER j<4 Ýse GÝT 5
+8 i=i+1
+9 YAZ i
+10 EGER i<3 Ýse GÝT 4
+11 i=0
+12 j=0
+13 YAZ dizi[i][j]
+14 j=j+1
+15 EGER j<4 Ýse GÝT 13
+16 i=i+1
+17 EGER i<3 Ýse GÝT 12
+18 BÝTÝR

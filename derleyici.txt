@@ -1,0 +1,18 @@
+1 BASLA
+2 i=0
+3 yeni dizi[3][4]
+4 j=0
+5 GÝR dizi[i][j]
+6 j=j+1
+7 EGER j<4 Ýse GÝT 5
+8 i=i+1
+9 YAZ i
+10 EGER i<3 Ýse GÝT 4
+11 i=0
+12 j=0
+13 YAZ dizi[i][j]
+14 j=j+1
+15 EGER j<4 Ýse GÝT 13
+16 i=i+1
+17 EGER i<3 Ýse GÝT 12
+18 BÝTÝR
