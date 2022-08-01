@@ -4,4 +4,4 @@
 
 - Uygulamada c/c++ programlama dili kullanılmıştır. Uygulama içerisinde veriler dosyadan satır satır okunuyor, struct yapısıyla tek yönlü doğrusal listede saklanıyor ve her eğer döngüsünde doğrusal liste sayesinde veriler üzerinde gezilerek adım  bilgisine ulaşılarak yürütülüyor.
 
--Çalıştırılabilir algoritmalar ornek.txt dosyasında bulunmaktadır. Buradaki istenen algoritma derleyici.txt dosyasına yazılarak exe dosyası üzerinden çalıştırılabilir.
+- Çalıştırılabilir algoritmalar ornek.txt dosyasında bulunmaktadır. Buradaki istenen algoritma derleyici.txt dosyasına yazılarak exe dosyası üzerinden çalıştırılabilir.
